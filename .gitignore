@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (large; re-downloaded automatically by ultralytics)
+*.pt
+*.pth
+*.onnx
+*.task
+*.h5
+
+# Ultralytics output
+runs/
+
+# Large images and video (keep a small sample out of the ignore list, see below)
+*.mp4
+*.avi
+*.mov
+
+# Secrets
+.env
+*.key
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
